@@ -1,0 +1,14 @@
+---
+title: "milestone5"
+author: "Harrison Burke"
+date: "10/22/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## About
+
+This project started out of curiosity regarding presidential candidates' twitter activity in conjunction with their public campaign announcements. In today's technological age, campaigns can be analyzed almost entirely from their social media presence. The 2016 election was a prime example of the effect that social media can have on the outcome(think Russion bots posting propaganda). I want to see if candidates' popularity on social media was affected by their public campaign decisions, and how that lined up compared to other candidates. I downloaded the rtweet package to get access to the twitter api, and send and recieve requests. The rtweet package comes with a variety of functions that lets you get twitter data using various keywords. 
